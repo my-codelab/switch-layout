@@ -1,12 +1,17 @@
 <template>
-  <div class="colored">
-    <h1>Modern-Layout</h1>
+  <div class="container p-20 h-full bg-white mx-auto">
     <nuxt />
   </div>
 </template>
 
-<style scoped>
-  .colored {
-    background-color: #7F828B;
+<script>
+export default {
+  head () {
+    return {
+      bodyAttrs: {
+        class: 'bg-gray-200 h-full'
+      }
+    }
   }
-</style>
+}
+</script>
