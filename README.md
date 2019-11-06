@@ -1,6 +1,6 @@
 # switch-layout
 
-> Testing dynamic switching the page layout
+> Dynamic layout switching with Nuxtjs
 
 ## Build Setup
 
